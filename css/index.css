@@ -1,0 +1,46 @@
+.in {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.inline {
+    width: 15%;
+}
+.user {
+    margin: 0.5%;
+    float: right;
+}
+.btn-group {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tb {
+    width: 96%;
+    margin: 2%;
+}
+.delete {
+    display: none;
+    float: right;
+    margin: 0.5%;
+}
+.update {
+    display: none;
+    float: right;
+    margin: 0.5%;
+}
+.modal, .in {
+    margin: 0;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+
+}
