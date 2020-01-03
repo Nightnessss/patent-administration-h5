@@ -10,6 +10,10 @@ $(function(){
         $('#in').css('display', 'none');
         $('#out').css('display', 'block');
     }
+
+    $('.navbar-brand').click(function() {
+        window.location.reload();
+    })
     /**
      * 初始化勾选框
      */
@@ -303,7 +307,7 @@ $(function(){
             err = 0;
         } else if($('#infoLabel').text() == "修改") {
             uri = "/patent/updatePatent";
-            ret = "up";
+            ret = "修改成功";
             id = mark;
             err = 1;
         } else {
