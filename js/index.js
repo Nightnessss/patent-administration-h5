@@ -364,7 +364,11 @@ $(function(){
                     }, {type: 'error', confirmButtonText: 'OK'});
                 } else {
                     alert(result.data.errorMsg, null, function () {
-
+                        if(err == 0) {
+                            add();
+                        } else if(err == 1) {
+                            update();
+                        }
                     }, {type: 'error', confirmButtonText: 'OK'});
                 }
             },
